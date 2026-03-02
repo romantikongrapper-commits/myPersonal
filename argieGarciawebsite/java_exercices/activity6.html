@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 6</title>
+</head>
+<body>
+    <h1>Activity 6: Interaction</h1>
+
+<p id="message">This text will change.</p>
+    <button onclick="changeMessage() ">Click Me</button>
+    <br><br>
+    <button onclick="changeAnotherMessage() ">Click Me</button>
+
+ <script>
+    function changeMessage()
+    {document.getElementById("message").textContent = "Welcome to DOIT College!";
+    }
+
+    function changeAnotherMessage()
+    {document.getElementById("message").textContent = "Goodbye!";
+    }
+ 
+ </script>
+</body>
+<html>
